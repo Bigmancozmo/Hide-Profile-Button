@@ -1,3 +1,3 @@
 # HideProfileButton
 
-This is where she makes a mod.
+A simple mod that hides your profile name/icon.
