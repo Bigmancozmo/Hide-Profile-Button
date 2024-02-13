@@ -9,9 +9,12 @@ class $modify(MenuLayer) {
 		
 		auto btn = this->getChildByID("profile-menu");
 		auto username = this->getChildByID("player-username");
+		auto isEnabled = Mod::get()->getSettingValue<bool>("enabled");
 
-		btn->setVisible(false);
-		username->setVisible(false);
+		if (isEnabled) {
+			btn->setVisible(false);
+			username->setVisible(false);
+		}
 
 		return true;
 	} 
