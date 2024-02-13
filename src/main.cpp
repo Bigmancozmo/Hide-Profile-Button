@@ -4,7 +4,15 @@
 using namespace geode::prelude;
 
 class $modify(MenuLayer) {
-	void onMoreGames(CCObject*) {
-		FLAlertLayer::create("Geode", "Hello from my custom mod!", "OK")->show(); 
+	bool init() {
+		if (!MenuLayer::init()) return false;
+		
+		auto btn = this->getChildByID("profile-menu");
+		auto username = this->getChildByID("player-username");
+
+		btn->setVisible(false);
+		username->setVisible(false);
+
+		return true;
 	} 
 };
