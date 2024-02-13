@@ -7,6 +7,11 @@
 	"developer": "Bigmancozmo",
 	"description": "Hides the profile button from the main menu",
 	"settings": {
-		
+		"enabled": {
+			"name": "Enabled",
+			"description": "Whether to hide the profile button or not.",
+			"default": true,
+			"type": "bool"
+		}
 	}
 }
