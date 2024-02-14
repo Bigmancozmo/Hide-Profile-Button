@@ -12,6 +12,12 @@
 			"description": "Whether to hide the profile button or not.",
 			"default": true,
 			"type": "bool"
+		},
+		"name-only": {
+			"name": "Name Only",
+			"description": "Whether to *only* hide the username. Does not apply on profile.",
+			"default": false,
+			"type": "bool"
 		}
 	}
 }
