@@ -12,8 +12,10 @@ class $modify(MenuLayer) {
 		auto isEnabled = Mod::get()->getSettingValue<bool>("enabled");
 		auto nameOnly = Mod::get()->getSettingValue<bool>("enabled");
 		
-		btn->setVisible((!isEnabled) && (!nameOnly));
-		username->setVisible(!isEnabled);
+		if(isEnabled){
+			btn->setVisible(nameOnly);
+			username->setVisible(false);
+		}
 
 		return true;
 	} 
