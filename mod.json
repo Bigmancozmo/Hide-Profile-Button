@@ -9,6 +9,7 @@
 	"name": "Hide Profile Button",
 	"developer": "Bigmancozmo",
 	"description": "Hides the profile button from the main menu",
+	"repository": "https://github.com/Bigmancozmo/Hide-Profile-Button",
 	"settings": {
 		"enabled": {
 			"name": "Enabled",
