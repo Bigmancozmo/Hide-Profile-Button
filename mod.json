@@ -1,11 +1,11 @@
 {
-	"geode": "3.0.0",
+	"geode": "4.0.1",
 	"gd": {
-		"win": "2.206",
-		"android": "2.206",
-		"mac": "2.206"
+		"win": "2.207",
+		"android": "2.207",
+		"mac": "2.207"
 	},
-	"version": "v1.4.1",
+	"version": "v1.5.0",
 	"id": "bigmancozmo.hide_profile_button",
 	"name": "Hide Profile Button",
 	"developer": "Bigmancozmo",
