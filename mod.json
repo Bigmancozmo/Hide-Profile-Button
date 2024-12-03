@@ -34,5 +34,12 @@
 			"default": false,
 			"type": "bool"
 		}
-	}
+	},
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": ">=v1.18.0",
+			"importance": "required"
+		}
+	]
 }
