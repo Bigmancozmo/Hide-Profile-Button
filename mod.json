@@ -7,9 +7,9 @@
 	},
 	"version": "v1.6.1",
 	"id": "bigmancozmo.hide_profile_button",
-	"name": "Hide Profile Button",
+	"name": "Hide Account",
 	"developer": "Bigmancozmo",
-	"description": "Hides the profile button from the main menu",
+	"description": "Various options to hide your account/username",
 	"repository": "https://github.com/Bigmancozmo/Hide-Profile-Button",
 	"settings": {
 		"enabled": {
