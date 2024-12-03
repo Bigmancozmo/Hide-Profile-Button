@@ -12,14 +12,14 @@
 	"description": "Various options to hide your account/username",
 	"repository": "https://github.com/Bigmancozmo/Hide-Profile-Button",
 	"settings": {
-		"enabled": {
+		"hide-button": {
 			"name": "Hide Button on Main Menu",
 			"default": true,
 			"type": "bool"
 		},
-		"name-only": {
+		"hide-name": {
 			"name": "Hide Name on Main Menu",
-			"default": false,
+			"default": true,
 			"type": "bool"
 		},
 		"hide-icon-kit": {
