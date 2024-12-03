@@ -11,13 +11,11 @@ class $modify(MenuLayer) {
 		
 		auto btn = this->getChildByID("profile-menu");
 		auto username = this->getChildByID("player-username");
-		auto isEnabled = Mod::get()->getSettingValue<bool>("enabled");
-		auto nameOnly = Mod::get()->getSettingValue<bool>("name-only");
-		
-		if(isEnabled){
-			btn->setVisible(nameOnly);
-			username->setVisible(false);
-		}
+		auto hideButton = Mod::get()->getSettingValue<bool>("hide-button");
+		auto hideName = Mod::get()->getSettingValue<bool>("hide-name");
+
+  btn->setVisible(!hideButton);
+  username->setVisible(!hideName);
 
 		return true;
 	} 
