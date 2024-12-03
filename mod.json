@@ -13,14 +13,12 @@
 	"repository": "https://github.com/Bigmancozmo/Hide-Profile-Button",
 	"settings": {
 		"enabled": {
-			"name": "Hide Button",
-			"description": "Whether to hide the profile button or not.",
+			"name": "Hide Button on Main Menu",
 			"default": true,
 			"type": "bool"
 		},
 		"name-only": {
-			"name": "Name Only",
-			"description": "Whether to *only* hide the username. Does not apply on profile.",
+			"name": "Hide Name on Main Menu",
 			"default": false,
 			"type": "bool"
 		},
