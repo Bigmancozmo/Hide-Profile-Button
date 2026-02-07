@@ -14,8 +14,8 @@ class $modify(MenuLayer) {
 		auto hideButton = Mod::get()->getSettingValue<bool>("hide-button");
 		auto hideName = Mod::get()->getSettingValue<bool>("hide-name");
 
-  btn->setVisible(!hideButton);
-  username->setVisible(!hideName);
+		btn->setVisible(!hideButton);
+		username->setVisible(!hideName);
 
 		return true;
 	} 

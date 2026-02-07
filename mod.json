@@ -1,11 +1,11 @@
 {
-	"geode": "4.0.1",
+	"geode": "5.0.0-alpha.1",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074"
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081"
 	},
-	"version": "v1.7.0",
+	"version": "v1.7.1-beta.1",
 	"id": "bigmancozmo.hide_profile_button",
 	"name": "Hide Account",
 	"developer": "Bigmancozmo",
@@ -33,11 +33,10 @@
 			"type": "bool"
 		}
 	},
-	"dependencies": [
-		{
-			"id": "geode.node-ids",
-			"version": ">=v1.18.0",
+	"dependencies": {
+		"geode.node-ids": {
+			"version": ">=v1.22.0-beta.1",
 			"importance": "required"
 		}
-	]
+	}
 }
