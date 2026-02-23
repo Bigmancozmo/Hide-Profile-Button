@@ -5,7 +5,7 @@
 		"android": "2.2081",
 		"mac": "2.2081"
 	},
-	"version": "v1.7.1-beta.1",
+	"version": "v1.7.2",
 	"id": "bigmancozmo.hide_profile_button",
 	"name": "Hide Account",
 	"developer": "Bigmancozmo",
@@ -35,7 +35,7 @@
 	},
 	"dependencies": {
 		"geode.node-ids": {
-			"version": ">=v1.22.0-beta.1",
+			"version": ">=v1.22.0",
 			"importance": "required"
 		}
 	}
