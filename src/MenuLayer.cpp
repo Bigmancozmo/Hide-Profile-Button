@@ -7,8 +7,9 @@ class $modify(MenuLayer) {
 	bool init() {
 		if (!MenuLayer::init()) return false;
 		
-		auto btn = this->getChildByID("profile-menu");
-		auto username = this->getChildByID("player-username");
+		auto btn = this->m_profileButton;
+		auto username = this->m_profileLabel;
+
 		auto hideButton = Mod::get()->getSettingValue<bool>("hide-button");
 		auto hideName = Mod::get()->getSettingValue<bool>("hide-name");
 

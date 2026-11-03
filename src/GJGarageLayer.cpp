@@ -6,7 +6,8 @@ using namespace geode::prelude;
 class $modify(GJGarageLayer) {
 	bool init() {
 		if(!GJGarageLayer::init()) return false;
-		auto usernameLabel = this->getChildByID("username-label");
+
+		auto usernameLabel = this->m_usernameInput;
 		auto hideOnGarage = Mod::get()->getSettingValue<bool>("hide-icon-kit");
 		usernameLabel->setVisible(!hideOnGarage);
 		
