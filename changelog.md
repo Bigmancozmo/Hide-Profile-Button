@@ -1,5 +1,5 @@
-## v1.8.0
-- Updated to 2.2091 & Geode 6.0.0
+## v1.8.0-beta.1
+- Updated to 2.2091 & Geode 6.0.0-beta.1
 - Removed Node IDs requirement
 - Added this changelog
 - Small code cleanup
